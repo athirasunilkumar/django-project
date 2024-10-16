@@ -1,0 +1,667 @@
+/* @media(max-width:587){
+  .inbox{
+    margin:0px;
+  }
+*/
+
+@media(max-width:1200px)and (max-width:786px){
+        
+    .logo{
+        width: 55%;
+    }
+    .toplink{
+        margin: 5px;
+        font-size: 10px;
+    }
+    .searchinput{
+        width: 100%;  
+    }
+   .first,.second,.third,.fourth,.shopnow{
+        font-size: 20px;
+        /* margin-left: -55px; */
+   }
+   .price{
+    font-size: 20px;
+   }
+   .regular{
+    width: 50%;
+   }
+   .Items,.numof{
+    font-size: 10px;
+   }
+   .sec3{
+    width: 90%;
+   }
+
+  .align{
+    width: 100%;
+    display:block;
+    padding-bottom: 30px;
+  }
+  .icon1{
+    margin: 0px;
+    font-size: 15px;
+  }
+  .sub3{
+    bottom:10px;
+  }
+  .head01,.head1,.head2,.shopglasses,.shopglasses2,.shopglasses3{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .shopglasses,.shopglasses3{
+    margin-bottom: 10px;
+  }
+  .sub4{
+    bottom: 0px;
+    padding: 0px;
+  }
+ .sub1{
+    padding-top: 0px;
+ }
+  h3.head2{
+    margin-top: 0px;
+  }
+  .shopglasses3{
+    font-size: 10px;
+    left: 13px;
+    bottom:-24px;
+  }
+  .prices{
+    font-size: 15px;
+  }
+  .icon2,.head04{
+    font-size: 15px;
+  }
+  .head6{
+    font-size: 17px;
+  }
+  .icon00{
+    margin: 0px;
+    font-size: 15px;
+  }
+  /* .inbox{
+    margin:0px;
+  } */
+    }
+
+@media(max-width:768px),(min-width:567px),(min-width:468px){
+  .sec2{
+    width: 100%;
+    margin: auto;
+  }
+  /* .inbox{
+    margin:0px;
+  } */
+    .logo{
+        margin-left: 0px;
+        width: 50%;   
+    }
+    .toplink{   
+        font-size: 2px;
+    }
+    .icon1{
+        margin: 5px;        
+    } 
+    .searchinput{
+        width: 50%;  
+    }
+    /* .second{
+      font-size:10px ;
+    } */
+   /* .first,.third,.fourth,.shopnow{
+        font: size 10px;;     
+   } */
+   /* .inbox{
+    margin-left:-5px;
+   } */
+   .price{
+    font-size: 20px;
+   }
+   .regular{
+    width: 50%;
+   }
+   .Items,.numof{
+    font-size: 10px;
+   }
+   .icon2,.head04{
+    font-size: 15px;
+  }
+  .head6{
+    font-size: 17px;
+  }
+  .icon00{
+    margin: 0px;
+    font-size: 15px;
+  }
+ 
+}
+ html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+.slick-slide {
+      transition: all ease-in-out .3s;
+      
+    }
+    
+.slick-active {
+      /* opacity: .7; */
+     }
+
+.slick-current {
+      /* opacity: 1; */
+    }
+
+.sec1{
+margin: 30px 20px;
+
+}
+.logo{
+margin-left: 40px;
+}
+.toplink{
+font-family:'poppins';
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+color: black;
+margin: 0px 15px;
+}
+.icon1{
+font-size:20px;
+margin: 0 5px;
+}
+.sec2{
+background-image:url("https://i.imgur.com/2Sxio6J.jpg");
+background-repeat: no-repeat;
+background-size:100% auto;
+height: auto;
+}
+.inbox{
+margin: 60px 0px 90px 159px; 
+}
+.first{
+font-family: 'Segoe Script','Savoye LET';
+font-size: 2.5em;
+color: #777777;
+line-height: 1;
+font-weight: 400;
+}
+.second{
+font-family:sans-serif;
+font-weight: 700;
+font-size: 40px;
+color: #222329;
+letter-spacing:4px;
+text-transform: uppercase;
+margin: 0 0 20px 0;
+}
+.third{
+font-family:sans-serif;
+font-weight:700;
+color: #222329;
+font-size:80px;
+}
+.fourth{
+font-family: 'Poppins', sans-serif;
+font-weight:bold;
+font-size: 20px;
+color: #222329;
+text-transform: uppercase;
+}
+
+.price{
+background-color: #fff;
+margin-left: 40px;
+font-size: 35px;
+}
+.shopnow{
+background: #222329;
+padding: 19px 50px;
+margin-left: 30px;
+font-weight: bolder;
+font-size: 18px;
+color: #fff;
+display: inline-block;
+margin-top: 30px;
+}
+.shopnow:hover{
+text-decoration: none;
+color: #fff;
+}
+.img{
+cursor: pointer;
+transition: transform 0.3s;
+}
+.img:hover{
+transform: scale(1.1);
+box-shadow: opx opx 10px black;
+}
+.Items{
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+}
+
+.numof{
+text-align: center;
+font-size: 15px;
+margin-top: -7px;
+color: #777777;
+}
+.sec3{
+margin: 80px 30px;
+
+}
+.demo1{
+position: relative;
+}
+.demo2{
+position: relative;
+}
+.demo3{
+position: relative;
+}
+.demo4{
+position: relative;
+}
+.sub1{
+position: absolute;
+bottom: 40px;
+left: 20px;
+}
+.head1{
+font-weight: bold;
+}
+.head2{
+font-size: medium;
+color: #777777;
+}
+.shopglasses{
+background: #222329;
+padding: 10px 15px;
+font-weight: bolder;
+font-size: 15px;
+color: #fff;
+display: inline-block;
+}
+.shopglasses:hover{
+text-decoration: none;
+color: #fff;
+}
+.sub2{
+position: absolute;
+top: 40px;
+left: 30px;
+}
+.sub3{
+position: absolute;
+bottom: 130px;
+left:20px;
+text-align: center;
+}
+.head01{
+color: #fff;
+}
+.shopglasses2{
+background: #ffffff;
+padding: 10px 15px;
+font-weight: bolder;
+font-size: 15px;
+color: #222329;
+display: inline-block;
+}
+.shopglasses2:hover{
+text-decoration: none;
+color: #222329;
+}
+.sub4{
+position: absolute;
+bottom: 20px;
+padding: 10px;
+text-align: center;
+border:4px solid #222329;
+}
+.shopglasses3{
+background: #222339;
+padding: 10px 15px;
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+position: absolute;
+bottom:-19px;
+left:60px;
+}
+.shopglasses3:hover{
+text-decoration: none;
+color: #fff;
+}
+.sec4{
+margin: 0px 30px;
+}
+.head3{
+font-weight: bold;
+font-size:18px;
+text-align: center;
+}
+.products{
+margin:40px -8px 0px 0px ;
+}
+.names{
+font-size: 17px;
+font-weight:10px;
+}
+.prices{
+font-size: 19px;
+font-weight: bold;
+}
+.sec5{
+margin-top: 80px;
+padding-top: 20px;
+padding: 30px;
+background-color: rgb(251, 248, 253);
+}
+.head4{
+font-weight: bold;
+font-size:20px;
+text-align: center;
+
+}
+.head5{
+color: #777777;
+font-size: 15px;
+font-weight: bold;
+}
+.align{
+text-align: center;
+}
+.sec7{
+margin: 20px 00px;
+padding: 40px 0px;
+}
+.inbox2{
+position: absolute;
+right:1px;
+}
+.sec6{
+margin: 50px 0px;
+}
+.head4{
+margin-bottom: 50px;
+text-align: left;
+}
+.bottomlink{
+display: block;
+padding: 10px;
+}
+.icon00{
+font-size: 25px;
+margin: 0px 10px;
+}
+.icon00:hover{
+color:rgb(10, 169, 217);
+padding: 10px;
+background-color: #222339;
+border-radius: 50%;
+}
+.sec8{
+margin-top: 40px;
+background-color:rgb(233, 234, 240);
+}
+.head6{
+text-align: center;
+margin: 20px 0px;
+}
+.form{
+margin-top: 10px;
+padding: 10px;
+
+display: inline-block;
+}
+.fillform{
+padding: 10px;
+width: 80%;
+margin: 10px 0px;
+}
+.message{
+display: inline-block;
+margin: 30px 150px;
+padding: 15px 20px;
+font-family:sans-serif;
+font-size: 20px;
+background-color:#000000;
+color: #ffffff;
+}
+.message:hover{
+text-decoration: none;
+color: #fff;
+background-color: #51536c;
+}
+.modalpara{
+padding: 70px;
+background-color:white;
+color:black
+}
+.modalheads{
+text-align:center;
+}
+.proimg{
+margin-bottom: 30px;
+border:1px solid #c0c0c2;
+padding: 7px;
+}
+.price{
+background-color: #fff;
+}
+.cart{
+font-size:12px;
+text-decoration: none;
+background-color: #222329;
+color: #fff;
+float: right;
+}
+.cart:hover{
+color: #fff;
+text-decoration: none;
+}
+.icon2{
+font-size:30px;
+color: black;
+padding: 7px 10px;
+border-radius: 50%;
+background-color: rgb(108, 137, 162);
+color: #fff;
+}
+.icon2:hover{
+color: rgb(108, 137, 162);
+background-color: #8bc0d3;
+}
+.btn3{
+background-color: #000000;
+color: #fff;
+padding:15px 10px;
+font-size: 15px;
+}
+.sec9{
+background-color: rgb(194, 212, 222);
+height: auto;
+position: fixed;
+width: 100%;
+bottom: 0px;
+left: 0px;
+z-index: 1000; 
+}
+@media(max-width:768px){
+  .logo {
+    margin-left: 40px;
+    width: 150px;
+    margin-left: 200px;
+}
+#na{
+  text-align: center;
+  margin-bottom: 20px;
+}
+  .inbox{
+    margin: 0px 0px 0px 0px; 
+    }
+    .first {
+      font-size:25px;
+      color: #777777;
+      line-height: 1;
+      font-weight: 300;
+  }
+  .second{
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: 400;
+    color: #222329;
+    letter-spacing:4px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+  }
+  .third{
+    font-family:sans-serif;
+    font-weight:700;
+    color: #222329;
+    font-size:50px;
+
+  }
+  .fourth{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    font-size: 15px;
+    color: #222329;
+    text-transform: uppercase; 
+  }
+  .price{
+    font-size: 25px;
+  }
+  .shopnow{
+    background: #222329;
+    padding: 9px 25px;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .sub1{
+   font-size: 20px;
+  }
+  .shopglasses2,.shopglasses,.shopglasses2 {
+    padding: 10px 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    display: inline-block;
+}
+.shopglasses {
+  background: #222329;
+  padding: 10px 15px;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #fff;
+  display: inline-block;
+}
+.one{
+  width: 100px;
+}
+/* .sub4{
+  margin-left: 177px;
+  margin-bottom: 150px;
+} */
+.head3{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.head4{
+  text-align: center;
+}
+/* .inbox1{
+  text-align: center;
+} */ 
+.Items,.numof{
+  font-size: 10px;
+}
+}
+@media(max-width:568px){
+  .Items,.numof{
+    font-size: 8px;
+  }
+.logo{
+  width:150px ;
+  margin-left:150px ;
+  margin-bottom: 20px;
+}
+}
+@media(max-width:468px){
+  .logo{
+    width:150px ;
+    margin-left:100px ;
+  }
+  #re{
+  width: 100px;
+  }
+  .one{
+    width: 100px;
+  }
+
+  .first {
+    font-size:15px;
+    color: #777777;
+    line-height: 1;
+    font-weight: 300;
+}
+.second{
+  font-size: 15px;
+  font-family:sans-serif;
+  font-weight: 400;
+  color: #222329;
+  letter-spacing:4px;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+.third{
+  font-family:sans-serif;
+  font-weight:700;
+  color: #222329;
+  font-size:30px;
+
+}
+.fourth{
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+  font-size: 10px;
+  color: #222329;
+  text-transform: uppercase; 
+}
+.price{
+  font-size: 25px;
+}
+  }
